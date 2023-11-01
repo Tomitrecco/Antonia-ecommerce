@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(68, 146, 132);
+    color: #fff;
+    height: 80px;
+    width: 100%;
+    max-width: 100%;
+
+}
+img{
+    width: 75px;
+    margin-left: 10px;
+}
+
+.cart{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  
