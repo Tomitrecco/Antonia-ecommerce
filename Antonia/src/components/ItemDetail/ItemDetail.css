@@ -1,0 +1,15 @@
+.CardItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    
+    
+    background-color: antiquewhite;
+    color: black;
+  }
+  

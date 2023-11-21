@@ -1,0 +1,41 @@
+.Counter{
+    border: solid gray 2px ;
+    border-radius: 10px;
+    height: 100px;
+    width:300px;
+    margin: auto;
+}
+.Controls{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding:0px;
+    margin: 4px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 75px;
+    
+}
+.ButtonA{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding:0px;
+    margin: 4px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+
+}
+.Number{
+    margin-top: 8px;
+}
