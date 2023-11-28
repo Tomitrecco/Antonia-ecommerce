@@ -18,18 +18,34 @@ img{
     width: 20px;
     height: 20px;
     
+    
+}
+.CartWidget{
+    margin-right: 15px;
 }
 
 
-button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 15px;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: transparent;
+
+.ActiveOption{   
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
-    transition: border-color 0.25s;
-  }
-  
+    font-style: bold;    
+}
+.OptionNav{
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-style: bold;
+}

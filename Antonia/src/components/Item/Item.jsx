@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Item.modules.css"
+import { Link } from 'react-router-dom'
 
 export default function Item({id, name, img, price, stock}) {
   return (
@@ -15,6 +16,7 @@ export default function Item({id, name, img, price, stock}) {
             <p className='Info'>Cantidad Disponible= {stock}</p>             
         </section>
         <footer className='ItemFooter'>
+          <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
         
         </footer>
     </article>

@@ -6,6 +6,7 @@ import "./ItemDetail.css"
 
 export default function ItemDetail({id, name, price, stock ,description ,category, img}) {
   return (
+    
     <article className='CardItem'>
         <header className='Header'>
             <h2 className='ItemHeader'>{name}</h2>
