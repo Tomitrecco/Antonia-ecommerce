@@ -1,0 +1,28 @@
+/* CartWidget.modules.css */
+.CartWidget {
+    
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; /* Color del texto, ajusta según sea necesario */
+  }
+  
+  .Cartimg {
+    max-width: 30px; /* Ajusta según sea necesario */
+    margin-right: 5px; /* Ajusta según sea necesario */
+  }
+  
+  .CartButton {
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 252, 252); 
+    color: #fff; 
+    padding: 5px 5px; 
+    border-radius: 5px ;
+    text-align: center;
+    margin-right: 20px;
+
+  }
+  
+ 
+  

@@ -1,0 +1,39 @@
+/* Estilo general del formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Estilo de las etiquetas del formulario */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Estilo de los campos de entrada del formulario */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilo del botón del formulario */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+}
+
+/* Cambia el estilo del botón cuando el cursor está sobre él */
+button:hover {
+  background-color: #45a049;
+}
+
+
+
